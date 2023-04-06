@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+h1{
+    font-size: 3.3em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 10px;
+}
+h2{
+    font-size: 2.3em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 10px;
+}
+h3{
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 10px;
+}
+.utilityr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.utilityc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.utilitys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 55%;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 4px rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+.pading{
+    padding: 20px 30px;
+}
+input{
+    width: 30vw;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.humidity{
+    display: none;
+}
+.wind{
+    display: none;
+}
+#error h1{
+    display: none;
+}
+#info{
+    display: none;
+}
